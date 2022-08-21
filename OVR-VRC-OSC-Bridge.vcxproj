@@ -97,7 +97,10 @@
     <PostBuildEvent>
       <Command>xcopy "$(ProjectDir)\default.json" "$(TargetDir)" /Y
 mkdir "$(TargetDir)\action_sets"
-xcopy "$(ProjectDir)\action_sets" "$(TargetDir)\action_sets" /Y /E</Command>
+xcopy "$(ProjectDir)\action_sets" "$(TargetDir)\action_sets" /Y /E
+xcopy "$(ProjectDir)\README.md" "$(TargetDir)" /Y
+xcopy "$(ProjectDir)\LICENSE.txt" "$(TargetDir)" /Y
+xcopy "$(ProjectDir)\ThirdPartyNotices.txt" "$(TargetDir)" /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -119,7 +122,10 @@ xcopy "$(ProjectDir)\action_sets" "$(TargetDir)\action_sets" /Y /E</Command>
     <PostBuildEvent>
       <Command>xcopy "$(ProjectDir)\default.json" "$(TargetDir)" /Y
 mkdir "$(TargetDir)\action_sets"
-xcopy "$(ProjectDir)\action_sets" "$(TargetDir)\action_sets" /Y /E</Command>
+xcopy "$(ProjectDir)\action_sets" "$(TargetDir)\action_sets" /Y /E
+xcopy "$(ProjectDir)\README.md" "$(TargetDir)" /Y
+xcopy "$(ProjectDir)\LICENSE.txt" "$(TargetDir)" /Y
+xcopy "$(ProjectDir)\ThirdPartyNotices.txt" "$(TargetDir)" /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -137,7 +143,10 @@ xcopy "$(ProjectDir)\action_sets" "$(TargetDir)\action_sets" /Y /E</Command>
     <PostBuildEvent>
       <Command>xcopy "$(ProjectDir)\default.json" "$(TargetDir)" /Y
 mkdir "$(TargetDir)\action_sets"
-xcopy "$(ProjectDir)\action_sets" "$(TargetDir)\action_sets" /Y /E</Command>
+xcopy "$(ProjectDir)\action_sets" "$(TargetDir)\action_sets" /Y /E
+xcopy "$(ProjectDir)\README.md" "$(TargetDir)" /Y
+xcopy "$(ProjectDir)\LICENSE.txt" "$(TargetDir)" /Y
+xcopy "$(ProjectDir)\ThirdPartyNotices.txt" "$(TargetDir)" /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -159,7 +168,10 @@ xcopy "$(ProjectDir)\action_sets" "$(TargetDir)\action_sets" /Y /E</Command>
     <PostBuildEvent>
       <Command>xcopy "$(ProjectDir)\default.json" "$(TargetDir)" /Y
 mkdir "$(TargetDir)\action_sets"
-xcopy "$(ProjectDir)\action_sets" "$(TargetDir)\action_sets" /Y /E</Command>
+xcopy "$(ProjectDir)\action_sets" "$(TargetDir)\action_sets" /Y /E
+xcopy "$(ProjectDir)\README.md" "$(TargetDir)" /Y
+xcopy "$(ProjectDir)\LICENSE.txt" "$(TargetDir)" /Y
+xcopy "$(ProjectDir)\ThirdPartyNotices.txt" "$(TargetDir)" /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
