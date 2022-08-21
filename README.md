@@ -78,7 +78,7 @@ Visual Studio 2022 でソリューションファイルを開いてビルドし�
           "exit": [ { "key": "/avatar/parameters/Rotate2", "value": false } ]
         }
       ]
-    },
+    }
   ]
 }
 ```
