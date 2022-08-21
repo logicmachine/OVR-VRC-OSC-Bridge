@@ -1,0 +1,246 @@
+{
+  "id": "vrchat",
+  "name": "VRChat",
+  "actions": [
+    {
+      "id": "move_forward",
+      "name": "Move Forward",
+      "binary": {
+        "press": [
+          { "key": "/input/MoveForward", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/MoveForward", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "move_backward",
+      "name": "Move Backward",
+      "binary": {
+        "press": [
+          { "key": "/input/MoveBackward", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/MoveBackward", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "move_left",
+      "name": "Move Left",
+      "binary": {
+        "press": [
+          { "key": "/input/MoveLeft", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/MoveLeft", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "move_right",
+      "name": "Move Right",
+      "binary": {
+        "press": [
+          { "key": "/input/MoveRight", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/MoveRight", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "look_left",
+      "name": "Look Left",
+      "binary": {
+        "press": [
+          { "key": "/input/LookLeft", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/LookLeft", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "look_right",
+      "name": "Look Right",
+      "binary": {
+        "press": [
+          { "key": "/input/LookRight", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/LookRight", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "jump",
+      "name": "Jump",
+      "binary": {
+        "press": [
+          { "key": "/input/Jump", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/Jump", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "run",
+      "name": "Run",
+      "binary": {
+        "press": [
+          { "key": "/input/Run", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/Run", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "comfort_left",
+      "name": "Snap Turn Left",
+      "binary": {
+        "press": [
+          { "key": "/input/ComfortLeft", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/ComfortLeft", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "comfort_right",
+      "name": "Snap Turn Right",
+      "binary": {
+        "press": [
+          { "key": "/input/ComfortRight", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/ComfortRight", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "drop_left",
+      "name": "Drop Left",
+      "binary": {
+        "press": [
+          { "key": "/input/DropLeft", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/DropLeft", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "use_left",
+      "name": "Use Left",
+      "binary": {
+        "press": [
+          { "key": "/input/UseLeft", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/UseLeft", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "grab_left",
+      "name": "Grab Left",
+      "binary": {
+        "press": [
+          { "key": "/input/GrabLeft", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/GrabLeft", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "drop_right",
+      "name": "Drop Right",
+      "binary": {
+        "press": [
+          { "key": "/input/DropRight", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/DropRight", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "use_Right",
+      "name": "Use Right",
+      "binary": {
+        "press": [
+          { "key": "/input/UseRight", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/UseRight", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "grab_right",
+      "name": "Grab Right",
+      "binary": {
+        "press": [
+          { "key": "/input/GrabRight", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/GrabRight", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "panic",
+      "name": "Turn on Safe Mode",
+      "binary": {
+        "press": [
+          { "key": "/input/PanicButton", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/PanicButton", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "quick_menu_left",
+      "name": "Quick Menu Left",
+      "binary": {
+        "press": [
+          { "key": "/input/QuickMenuToggleLeft", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/QuickMenuToggleLeft", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "quick_menu_right",
+      "name": "Quick Menu Right",
+      "binary": {
+        "press": [
+          { "key": "/input/QuickMenuToggleRight", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/QuickMenuToggleRight", "value": 0 }
+        ]
+      }
+    },
+    {
+      "id": "voice",
+      "name": "Voice",
+      "binary": {
+        "press": [
+          { "key": "/input/Voice", "value": 1 }
+        ],
+        "release": [
+          { "key": "/input/Voice", "value": 0 }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="osc_sender.h" />
+    <ClInclude Include="configuration.h" />
+    <ClInclude Include="action_manifest.h" />
+    <ClInclude Include="input_handler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="config">
+      <UniqueIdentifier>{43372a50-d726-4b6a-9da2-fbdef4e9ee5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\action_sets">
+      <UniqueIdentifier>{cee001ec-afbf-4d6d-9f92-8bd088221410}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="action_sets\VirtualLens2.json">
+      <Filter>config\action_sets</Filter>
+    </None>
+    <None Include="action_sets\VRChat.json">
+      <Filter>config\action_sets</Filter>
+    </None>
+  </ItemGroup>
+</Project>

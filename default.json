@@ -1,0 +1,6 @@
+{
+  "action_sets": "action_sets",
+  "poll_rate": 200.0,
+  "destination_host": "127.0.0.1",
+  "destination_port": 9000
+}

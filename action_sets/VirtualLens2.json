@@ -1,0 +1,486 @@
+{
+  "id": "virtuallens2",
+  "name": "VirtualLens2",
+  "actions": [
+    {
+      "id": "enable",
+      "name": "Enable",
+      "binary": {
+        "press": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 3 }
+        ],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 2 }
+        ]
+      }
+    },
+    {
+      "id": "auto_leveler",
+      "name": "Auto Leveler (Rotate)",
+      "rotate": [
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 4 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 5 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 6 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stabilizer",
+      "name": "Stabilizer (Rotate)",
+      "rotate": [
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 8 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 9 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 10 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 11 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pickup",
+      "name": "Pickup",
+      "binary": {
+        "press": [],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 12 }
+        ]
+      }
+    },
+    {
+      "id": "drop",
+      "name": "Drop",
+      "binary": {
+        "press": [],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 13 }
+        ]
+      }
+    },
+    {
+      "id": "reposition",
+      "name": "Reposition",
+      "binary": {
+        "press": [],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 14 }
+        ]
+      }
+    },
+    {
+      "id": "reposition_scale",
+      "name": "Reposition Scale (Rotate)",
+      "rotate": [
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 16 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 17 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 18 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 19 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pin_store_1",
+      "name": "Store Pin 1",
+      "binary": {
+        "press": [],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 20 }
+        ]
+      }
+    },
+    {
+      "id": "pin_store_2",
+      "name": "Store Pin 2",
+      "binary": {
+        "press": [],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 21 }
+        ]
+      }
+    },
+    {
+      "id": "pin_store_3",
+      "name": "Store Pin 3",
+      "binary": {
+        "press": [],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 22 }
+        ]
+      }
+    },
+    {
+      "id": "pin_store_4",
+      "name": "Store Pin 4",
+      "binary": {
+        "press": [],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 23 }
+        ]
+      }
+    },
+    {
+      "id": "pin_load_1",
+      "name": "Load Pin 1",
+      "binary": {
+        "press": [],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 24 }
+        ]
+      }
+    },
+    {
+      "id": "pin_load_2",
+      "name": "Load Pin 2",
+      "binary": {
+        "press": [],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 25 }
+        ]
+      }
+    },
+    {
+      "id": "pin_load_3",
+      "name": "Load Pin 3",
+      "binary": {
+        "press": [],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 26 }
+        ]
+      }
+    },
+    {
+      "id": "pin_load_4",
+      "name": "Load Pin 4",
+      "binary": {
+        "press": [],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 27 }
+        ]
+      }
+    },
+    {
+      "id": "external_pose",
+      "name": "Use External Pose",
+      "binary": {
+        "press": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 29 }
+        ],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 28 }
+        ]
+      }
+    },
+    {
+      "id": "focus_lock",
+      "name": "Focus Lock",
+      "binary": {
+        "press": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 31 }
+        ],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 30 }
+        ]
+      }
+    },
+    {
+      "id": "auto_focus_mode",
+      "name": "AF Mode (Rotate)",
+      "rotate": [
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 32 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 33 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 34 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto_focus_tracking_speed",
+      "name": "AF Tracking Speed (Rotate)",
+      "rotate": [
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 36 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 37 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 38 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 39 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto_focus_focusing_speed",
+      "name": "AF Focusing Speed (Rotate)",
+      "rotate": [
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 40 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 41 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 42 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 43 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mesh_visibility",
+      "name": "Hide Mesh",
+      "binary": {
+        "press": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 45 }
+        ],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 44 }
+        ]
+      }
+    },
+    {
+      "id": "display_grid",
+      "name": "Display Grid (Rotate)",
+      "rotate": [
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 46 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 47 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 48 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 49 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "display_information",
+      "name": "Display Information (Rotate)",
+      "rotate": [
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 52 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 53 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "display_level",
+      "name": "Display Level Meter (Rotate)",
+      "rotate": [
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 54 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 55 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "display_peaking",
+      "name": "Display Peaking (Rotate)",
+      "rotate": [
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 56 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 57 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 58 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "far_plane_override",
+      "name": "Far Plane Override (Rotate)",
+      "rotate": [
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 60 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 61 }
+          ]
+        },
+        {
+          "enter": [
+            { "key": "/avatar/parameters/VirtualLens2_Control", "value": 62 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transfer_mode_strict",
+      "name": "Strict Transfer",
+      "binary": {
+        "press": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 65 }
+        ],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 64 }
+        ]
+      }
+    },
+    {
+      "id": "depth_enabler",
+      "name": "Depth Enabler",
+      "binary": {
+        "press": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 67 }
+        ],
+        "release": [
+          { "key": "/avatar/parameters/VirtualLens2_Control", "value": 66 }
+        ]
+      }
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "analog": [
+        {
+          "key": "/avatar/parameters/VirtualLens2_Zoom",
+          "input_min": 0.0,
+          "input_max": 1.0,
+          "output_min": 0.0,
+          "output_max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "aperture",
+      "name": "Aperture",
+      "analog": [
+        {
+          "key": "/avatar/parameters/VirtualLens2_Aperture",
+          "input_min": 0.0,
+          "input_max": 1.0,
+          "output_min": 0.0,
+          "output_max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "manual_focus",
+      "name": "Manual Focusing",
+      "analog": [
+        {
+          "key": "/avatar/parameters/VirtualLens2_Distance",
+          "input_min": 0.0,
+          "input_max": 1.0,
+          "output_min": 0.0,
+          "output_max": 1.0
+        }
+      ]
+    },
+    {
+      "id": "exposure",
+      "name": "Exposure",
+      "analog": [
+        {
+          "key": "/avatar/parameters/VirtualLens2_Exposure",
+          "input_min": 0.0,
+          "input_max": 1.0,
+          "output_min": 0.0,
+          "output_max": 1.0
+        }
+      ]
+    }
+  ]
+}
